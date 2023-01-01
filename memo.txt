@@ -1,0 +1,13 @@
+2022.12.31
+【日本一わかりやすいNext.js入門】
+https://www.youtube.com/watch?v=IHkvcmXReyU&list=PLX8Rsrpnn3IUGEyanrHYGjY1WOzNe7Jd-&index=2
+
+/Users/kou/work/next/nextjs-blog
+
+https://nextjs.org/learn/basics/create-nextjs-app/setup
+
+
+npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+cd nextjs-blog
+npm run dev
+
