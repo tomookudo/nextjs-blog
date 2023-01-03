@@ -26,8 +26,8 @@ export default function Home ({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>東洋一のサウンドマシーン、クレイジーケンバンド</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          <i>This is a sample website - {' '}</i>
+          <a href="https://nextjs.org/learn">Next.js tutorial</a>.
         </p>
         go to <Link href="/posts/first-post">first-post</Link>
       </section>
