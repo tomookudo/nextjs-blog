@@ -18,3 +18,28 @@ npm install remark remark-html
 npm install date-fns
 
 
+# Deploy to github
+githubにproject作成
+tomookudo/nextjs-blog
+https://github.com/tomookudo/nextjs-blog.git
+
+git remote add origin https://github.com/tomookudo/nextjs-blog.git
+//git branch -M main
+git push -u origin main
+
+JAMStack:あらかじめページを全て生成しておき、ウェブサーバーに一切依存せずページを配信する。
+
+# Deploy to Vercel
+https://vercel.com/new
+githubアカウントでサインインした。
+DEPLOYMENT
+nextjs-blog-pkaj29gn7-tomookudo.vercel.app
+DOMAINS
+https://nextjs-blog-hazel-gamma-75.vercel.app/
+
+DPS: Develop, Preview, and Ship
+git checkout -b deploy-preview 
+
+
+
+
